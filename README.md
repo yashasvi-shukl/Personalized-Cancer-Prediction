@@ -45,7 +45,8 @@ Split the dataset randomly into three parts train, cross validation and test wit
 4. Prediction using Random Model.
 5. Built model for each feature to check how good the feature is in predicting y_i. Features are encoded using onehotencoded and response coding (using laplace smoothing)
 6. Trained model on featurized (onehotencoding and response coding) train data and perform prediction on test data.
-7. Extracted important features
+7. Predicted probability score for each class as Interpretability and confidence is important constraint.
+8. Extracted important features
 
 # Result
 Random Forest on response coded features seems to be performing best. Below is the result obtained.
